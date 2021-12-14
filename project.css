@@ -1,0 +1,60 @@
+body{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url("andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg");
+    color: #ffffff;  
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    position: relative;
+    width: 100%;
+}
+header{
+    color:aliceblue;
+}
+
+/* div */
+#firstdiv{
+    margin: 0;
+    padding: 0;  
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: cadetblue;
+    color: lightgoldenrodyellow;
+    position: fixed;
+    margin: 0;
+    margin-bottom: 100px;
+
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav li{
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    color: #ffffff; 
+}
+nav li:hover{
+    background-color: chocolate;
+}
+#seconddiv{
+    padding: 150px;
+    text-align: center;
+    max-width: 1180px;
+}
+
